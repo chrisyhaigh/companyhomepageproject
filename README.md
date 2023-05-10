@@ -12,5 +12,7 @@ Built With
 HTML
 CSS
 Using media queries for responsive design
+Used GIT for version control making numerous commmits along the way
+
 
 This project was inspired by personally growing up in the city of Edinburgh.
