@@ -1,4 +1,4 @@
-Simple Company Home Page
+Company Home Page
 =========================
 
 This is a simple company home page created using HTML and CSS, with media queries for responsive design. The goal of this project is to practice creating a basic website layout, and implementing responsive design techniques to ensure the site looks good on various screen sizes.
