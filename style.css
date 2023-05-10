@@ -49,21 +49,47 @@ nav li a {
     padding-right: 3rem;
 }
 
-@media only screen and (max-width: 1420px) {
+
+
+@media only screen and (max-width: 950px) {
     nav ul li {
     display: block;
+    padding-right: 2em;
+    }
+
+    header h1 {
+        flex-grow: 1;
+        margin-top: 1em;
+        font-style: italic;
+        padding-left: 1.85rem;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    nav ul li {
+    display: block;
+    padding-right: 2em;
     }
 }
 
 @media only screen and (max-width: 760px) {
     nav ul li {
     display: block;
+    padding-right: 2em;
     }
 }
 
 @media only screen and (max-width: 450px) {
     nav ul li {
     display: block;
+    padding-right: 1em;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    nav ul li {
+    display: block;
+    padding-right: 1em;
     }
 }
 
@@ -85,6 +111,9 @@ nav li a {
     justify-content: center;
 }
 
+.title {
+    font-size: 2.35em;
+}
 
 .line {
     background: gold;
@@ -95,19 +124,27 @@ nav li a {
 }
 
 @media only screen and (max-width: 1320px) {
-    .banner {
-        font-size: 1.5rem;
-       }
+    .title {
+        font-size: 2.05em;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    .title {
+        font-size: 1.65em;
+    }
 }
 
 @media only screen and (max-width: 760px) {
-   .banner {
-    font-size: 1.5rem;
-   }
+    .title {
+        font-size: 1.0em;
+    }
 }
 
 @media only screen and (max-width: 450px) {
-
+    .title {
+        font-size: .95em;
+    }
 }
 
 /*About Us Section*/
@@ -156,11 +193,25 @@ nav li a {
 }
 
 .content {
-    font-size: smaller;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     color: black;
+}
+
+span {
+    font-size: 0.99em;
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .services-section {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+       } 
 }
 
 
@@ -194,13 +245,13 @@ footer {
 
 @media only screen and (max-width: 760px) {
     footer {
-        font-size: 0.675rem;
+        font-size: .875rem;
        }
 }
 
 @media only screen and (max-width: 350px) {
     footer {
-     font-size: 1.275rem;
+     font-size: .675rem;
     }
 }
 
