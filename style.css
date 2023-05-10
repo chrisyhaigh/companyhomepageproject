@@ -261,9 +261,9 @@ footer {
        }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 350px) {
     footer {
-     font-size: .505rem;
+     font-size: .405rem;
     }
 }
 
