@@ -111,7 +111,7 @@ nav li a {
     color: white;
     font-size: 2rem;
     text-align: center;
-    background: rgba(0,0,0,0.7) url("../resources/images/caltonhill.jpg"); /*This gives the background image shading*/
+    background: rgba(0,0,0,0.7) url("/caltonhill.jpg"); /*This gives the background image shading*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
